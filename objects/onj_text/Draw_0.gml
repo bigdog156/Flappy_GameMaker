@@ -83,6 +83,15 @@ switch(l53F59773_0)
 	/// @DnDParent : 53F59773
 	/// @DnDArgument : "const" "rm_start"
 	case rm_start:
+		/// @DnDAction : YoYo Games.Drawing.Set_Alignment
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 6E58E385
+		/// @DnDParent : 20D47D67
+		/// @DnDArgument : "halign" "fa_center"
+		/// @DnDArgument : "valign" "fa_middle"
+		draw_set_halign(fa_center);
+		draw_set_valign(fa_middle);
+	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 		/// @DnDVersion : 1
 		/// @DnDHash : 746D916D
@@ -93,6 +102,23 @@ switch(l53F59773_0)
 		/// @DnDArgument : "yscale" "3"
 		/// @DnDArgument : "caption" "">>PLAY<< ""
 		draw_text_transformed(250, 250, string(">>PLAY<< ") + "", 3, 3, 0);
+	
+		/// @DnDAction : YoYo Games.Drawing.Set_Alignment
+		/// @DnDVersion : 1.1
+		/// @DnDHash : 6EEDF3D9
+		/// @DnDParent : 20D47D67
+		/// @DnDArgument : "halign" "fa_center"
+		draw_set_halign(fa_center);
+		draw_set_valign(fa_top);
+	
+		/// @DnDAction : YoYo Games.Drawing.Draw_Value
+		/// @DnDVersion : 1
+		/// @DnDHash : 47584839
+		/// @DnDParent : 20D47D67
+		/// @DnDArgument : "x" "250"
+		/// @DnDArgument : "y" "300"
+		/// @DnDArgument : "caption" ""ENTER""
+		draw_text(250, 300, string("ENTER") + "");
 	
 		/// @DnDAction : YoYo Games.Drawing.Draw_Value
 		/// @DnDVersion : 1
